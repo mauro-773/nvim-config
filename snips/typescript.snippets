@@ -23,6 +23,37 @@
 #		endsnippet
 #
 # Online reference: https://github.com/SirVer/ultisnips/blob/master/doc/UltiSnips.txt
-snippet clg "Description" b
+
+snippet clg "console.log()" b
 console.log($1);
+endsnippet
+
+snippet imp "Import" b
+import {} from '$1';
+endsnippet
+
+snippet impn "Import Node" b
+const {} = require('$1');
+endsnippet
+
+snippet fac "fat arrow function" b
+const $1 = () => {
+
+};
+endsnippet
+
+snippet mode "Module exports" b
+module.exports = { $1 };
+endsnippet
+
+snippet trycatch "Try catch" b
+try {
+	$1
+} catch (error) {
+	console.log(error);
+}
+endsnippet
+
+snippet dest "Destructuring object" b
+const { $2 } = $1;
 endsnippet
