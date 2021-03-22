@@ -1,0 +1,24 @@
+{
+   "coc.preferences.formatOnSaveFiletypes": [
+      "css",
+      "markdown",
+      "html",
+      "javascript",
+      "javascriptreact",
+      "json",
+      "typescript",
+      "typescriptreact",
+      "pug",
+      "hbs",
+      "ejs"
+   ],
+   "javascript.suggestionActions.enabled": false,
+   "typescript.suggestionActions.enabled": false,
+   "prettier.singleQuote": true,
+   "prettier.tabWidth": 3,
+   "sql.lintOnOpen": false,
+   "codeLens.enable": true,
+   "java.referencesCodeLens.enabled": true,
+   "java.jdt.ls.vmargs": "-javaagent:/usr/local/share/lombok.jar",
+   "java.home": "/usr/lib/jvm/java-1.11.0-openjdk-amd64"
+}
