@@ -10,7 +10,6 @@ set encoding=utf-8
 set showmatch
 set relativenumber
 set laststatus=2
-"set backspace=2
 set expandtab
 set tabstop=3
 set shiftwidth=3
