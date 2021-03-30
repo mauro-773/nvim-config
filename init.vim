@@ -11,7 +11,7 @@ set encoding=utf-8
 set showmatch
 set relativenumber
 set laststatus=2
-"set backspace=2
+set backspace=2
 set expandtab
 set tabstop=3
 set shiftwidth=3
@@ -69,7 +69,7 @@ Plug 'alvan/vim-closetag'
 "#Prettier
 Plug 'Yggdroot/indentLine'
 Plug 'sheerun/vim-polyglot'
-
+"Plug 'christianchiarulli/nvcode-color-schemes.vim'
 call plug#end()
 
 "IMPORTACIONES
@@ -82,9 +82,6 @@ source ~/.config/nvim/plugins/coc-config.vim
 
 colorscheme gruvbox 
 let g:gruvbox_contrast_dark = "hard"
-
-"$ Mapleader: Comando Principal
-let mapleader=" "
 
 "$ Buscar una palabra por 2 letras
 nmap <Leader>s <Plug>(easymotion-s2)
@@ -107,7 +104,6 @@ let g:coc_global_extensions = [
   \ 'coc-eslint',
   \ 'coc-css',
   \ 'coc-sql',
-  \ 'coc-java',
   \ ]
 
 "Cerrar tags automaticamente
