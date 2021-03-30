@@ -3,7 +3,6 @@
 "########################################################
 syntax enable 
 set number
-"set mouse=a
 set clipboard=unnamed
 set showcmd
 set ruler
