@@ -3,7 +3,7 @@
 "########################################################
 syntax enable 
 set number
-set mouse=a
+"set mouse=a
 set clipboard=unnamed
 set showcmd
 set ruler
@@ -107,7 +107,6 @@ let g:coc_global_extensions = [
   \ 'coc-eslint',
   \ 'coc-css',
   \ 'coc-sql',
-  \ 'coc-java',
   \ ]
 
 "Cerrar tags automaticamente
