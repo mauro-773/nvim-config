@@ -52,8 +52,6 @@ call plug#begin()
 Plug 'morhetz/gruvbox'
 "# Arbol de archivos
 Plug 'preservim/nerdtree'
-"# Buscar palabras
-Plug 'easymotion/vim-easymotion'
 "# Navegar entre terminales
 Plug 'christoomey/vim-tmux-navigator'
 "# Autocompletado
@@ -64,7 +62,7 @@ Plug 'vim-airline/vim-airline-themes'
 
 "# Cerrar pares {} () []
 Plug 'alvan/vim-closetag'
-"#Prettier
+
 Plug 'Yggdroot/indentLine'
 Plug 'sheerun/vim-polyglot'
 
