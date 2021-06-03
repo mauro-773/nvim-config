@@ -15,7 +15,7 @@
    "javascript.suggestionActions.enabled": false,
    "typescript.suggestionActions.enabled": false,
    "prettier.singleQuote": true,
-   "prettier.tabWidth": 3,
+   "prettier.tabWidth": 2,
    "sql.lintOnOpen": false,
    "snippets.userSnippetsDirectory": "$HOME/.config/nvim/snips"
 }

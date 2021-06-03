@@ -11,8 +11,8 @@ set showmatch
 set relativenumber
 set laststatus=2
 set expandtab
-set tabstop=3
-set shiftwidth=3
+set tabstop=2
+set shiftwidth=2
 let t_Co=256 
 let mapleader = " "
 
