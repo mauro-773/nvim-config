@@ -1,0 +1,52 @@
+snippet rafce "rafce" b
+interface IProps {}
+
+const $1: React.FC<IProps> = () => {
+	return (
+		<div>
+			<h2>$1</h2>
+		</div>
+	);
+};
+
+export default $1;
+endsnippet
+
+snippet raf "raf" b
+interface IProps {}
+
+export const $1: React.FC<IProps> = () => {
+	return (
+		<div>
+			<h2>$1</h2>
+		</div>
+	);
+};
+endsnippet
+
+snippet clg "console.log()" b
+console.log($1);
+endsnippet
+
+snippet imp "Import" b
+import {} from '$1';
+endsnippet
+
+snippet fac "fat arrow function" b
+const $1 = () => {
+
+};
+endsnippet
+
+snippet trycatch "Try catch" b
+try {
+	$1
+} catch (error) {
+	console.log(error);
+}
+endsnippet
+
+snippet dest "Destructuring object" b
+const { $2 } = $1;
+endsnippet
+
