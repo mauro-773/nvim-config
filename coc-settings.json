@@ -1,0 +1,21 @@
+{
+  "coc.preferences.formatOnSaveFiletypes": [
+    "css",
+    "markdown",
+    "html",
+    "py",
+    "javascript",
+    "javascriptreact",
+    "json",
+    "typescript",
+    "typescriptreact",
+    "pug",
+    "hbs",
+    "ejs"
+  ],
+  "javascript.suggestionActions.enabled": false,
+  "typescript.suggestionActions.enabled": false,
+  "prettier.singleQuote": true,
+  "prettier.tabWidth": 2,
+  "snippets.userSnippetsDirectory": "$HOME/.config/nvim/snips"
+}
