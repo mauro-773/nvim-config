@@ -62,7 +62,17 @@ it('Should $1', () => {
 endsnippet
 
 snippet pam "Description" b
-public async $1(): $2 {
-
+public async $1(): Promise<any> {
+	return '$1';
 }
+endsnippet
+
+snippet psm "Description" b
+public $1(): any {
+	return '$1';
+}
+endsnippet
+
+snippet constructor "Description" b
+constructor(private readonly $1) {}
 endsnippet

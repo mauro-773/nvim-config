@@ -45,6 +45,7 @@ nmap <leader>wq :wq<CR>
 " Theme - Plug 'wadackel/vim-dogrun'
 " Theme - Plug 'morhetz/gruvbox'
 " Theme - Plug 'Shadorain/shadotheme'
+" Theme - Plug 'ghifarit53/tokyonight-vim'
 call plug#begin()
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'preservim/nerdtree'
@@ -53,9 +54,14 @@ Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
 Plug 'alvan/vim-closetag'
 Plug 'Yggdroot/indentLine'
+
+"" Themes ""
 Plug 'dracula/vim', { 'as': 'dracula' }
+Plug 'wadackel/vim-dogrun'
 Plug 'ghifarit53/tokyonight-vim'
 Plug 'arcticicestudio/nord-vim'
+Plug 'Shadorain/shadotheme'
+Plug 'morhetz/gruvbox'
 call plug#end()
 
 " ------------- Importaciones ------------- "
@@ -65,16 +71,19 @@ source ~/.config/nvim/plugins/coc-config.vim
 " ------------- Plugin Config ------------- "
 
 " Theme 
-" let g:tokyonight_style = 'night'
-" let g:tokyonight_enable_italic = 0
+"let g:tokyonight_style = 'night'
+"let g:tokyonight_enable_italic = 0
 colorscheme nord
+"colorscheme xshado
 
 " Dracula Theme
 "let g:dracula_bold = 0
 "let g:dracula_italic = 0
 "colorscheme dracula 
 
-" hi Normal guibg=NONE ctermbg=NONE
+hi Normal guibg=NONE ctermbg=NONE
+ 
+
 
 "$ NERDTree Config
 nmap <Leader>b :NERDTreeFind<CR>

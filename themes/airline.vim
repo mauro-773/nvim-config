@@ -42,7 +42,7 @@ if !exists('g:airline_symbols')
 
 
 " " Switch to your current theme
-let g:airline_theme = 'nord'
+let g:airline_theme = 'dracula'
 
  " Always show tabs
 set showtabline=2
